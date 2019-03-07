@@ -1,19 +1,28 @@
+## 目录介绍
+- /etc/     --目录下的文件都是配置文件
+- /usr/		--目录下的文件是用户安装的资源文件
+- /var/		--目录下的文件是可变的文件，是在执行程序时程序的缓存文件，系统会放在/var/backups/目录下
+- /tmp/		--目录：放着一切不重要的文件，随时都有可能要消失的文件
+## 常用的查找字符
+- ls /etc | grep ss（模糊查找） -- | 的意思把前面的输出交给后面的处理
+- [例子](3.png)
+- ll						   -- 查看文件的权限管理	
 ## 一、Linux 常用的快捷键
-- Ctrl + Shift + T				-- 打开终端
-- Ctrl + Shift + C				-- 复制
-- Ctrl + Shift + V				-- 粘贴
-- Ctrl + A						-- 光标移到最前
-- Ctrl + E						-- 光标移到最后
-- Ctrl + P						-- 上移一个句子相等于 ↑键
-- Ctrl + N						-- 下移 相当于 ↓键
-- tab							-- 自动补全
-- Ctrl + R						-- 匹配输入（如果第一次匹配不到，可以在按一次Ctrl + R）
-- history						-- 查看历史，就是以前你输入过的命令
-- Ctrl + C 或 Ctrl + D			-- 退出
+- Ctrl + Shift + T				-- 打开终端  
+- Ctrl + Shift + C				-- 复制 
+- Ctrl + Shift + V				-- 粘贴 
+- Ctrl + A						-- 光标移到最前 
+- Ctrl + E						-- 光标移到最后 
+- Ctrl + P						-- 上移一个句子相等于 ↑键 
+- Ctrl + N						-- 下移 相当于 ↓键 
+- tab							-- 自动补全 
+- Ctrl + R						-- 匹配输入（如果第一次匹配不到，可以在按一次Ctrl + R） 
+- history						-- 查看历史，就是以前你输入过的命令 
+- Ctrl + C 或 Ctrl + D			-- 退出 
     
        
-- Alt + B						-- 光标往前移动
-- Alt + F						-- 光标往后移动
+- Alt + B						-- 光标往前移动 ←键
+- Alt + F						-- 光标往后移动 →键
 - Alt + D						-- 删除
 
 
@@ -43,8 +52,10 @@
 - gedit 文件名.java 				-- 创建文件
 - cat 文件名.java				-- 查看内容
 ## 四内部的下载软件（在内部不能下载时，就要用到第五步的下载方式），删除
-- sudo apt search tomcat		-- 可以先查看我们要下载tomcat有没有
-- [search](2.png)
+- sudo apt search tomcat		-- 可以先查看我们要下载tomcat有没有，我们一般下载的是tomcat8
+	
+- [此图片只是说明了前面绿色的字体是软件名字](2.png)
+	
 - sudo apt install tomcat8(下载名)		-- 下载tomcat		
 - sudo apt remove -r 软件名				-- 删除某个东西
 ## 五、怎么下载软件（这里的下载是指一些商标的软件，如idea）
