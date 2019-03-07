@@ -13,3 +13,9 @@
 - 下载axel命令后
 		axel -n 32 url 		(32个线程下载)
  		-n:表示启动线程，启动多少看后面带的参数
+	
+
+### 我们要进行解压
+- tar&nbsp;&nbsp;xvzf&nbsp;&nbsp;  文件名.tar.gz
+- 解压完后要切换bin目录下
+- 执行&nbsp;./idea.sh&nbsp;命令，idea就会进行安装了
