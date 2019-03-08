@@ -3,8 +3,8 @@
    
 ### wget使用
 - wget url(这里url就是你要下载idea的网站)
-- [在idea官网中direct link右键复制链接](1.jpg)
-- [wget下载](1.png)
+- [在idea官网中direct link右键复制链接](img/1.jpg)
+- [wget下载](img/1.png)
 
 ### 如果觉得wget下载太慢，可以执行停止（按Ctrl + C）是用axel命令
 - 首先要在终端查找看一下是已经下载了
