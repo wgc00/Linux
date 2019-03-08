@@ -5,7 +5,7 @@
 		/tmp/		--目录：放着一切不重要的文件，随时都有可能要消失的文件
 ## 常用的查找字符
 		ls /etc | grep ss（模糊查找） 		  -- | 的意思把前面的输出交给后面的处理
-- [例子](3.png)
+- ![例子](3.png)
 		
 		ll					       -- 查看文件的权限管理	 
 
@@ -50,7 +50,7 @@
 		deb-src http://mirrors.aliyun.com/ubuntu/ cosmic-backports main restricted universe multiverse
 
 	-- cosmic 是一个版本代号，不同的版本有不同的版本号，**如果系统的版本号与镜像源配置的版本不同，在下载软件时就会报错**
-- [cosmic版本查询命令](1.png)
+- ![cosmic版本查询命令](1.png)
    
 - 3、第三步
 	sudo apt-get update				   -- 重新刷新，
@@ -61,7 +61,7 @@
 ## 四内部的下载软件（在内部不能下载时，就要用到第五步的下载方式），删除
 - sudo apt search tomcat				  -- 可以先查看我们要下载tomcat有没有，我们一般下载的是tomcat8
 	
-- [此图片只是说明了前面绿色的字体是软件名字](2.png)
+- ![此图片只是说明了前面绿色的字体是软件名字](2.png)
 	
 - sudo apt install tomcat8(下载名)				-- 下载tomcat		
 - sudo apt remove -r 软件名				-- 删除某个东西
