@@ -16,6 +16,14 @@
 	
 
 ### 我们要进行解压
-- tar&nbsp;&nbsp;xvzf&nbsp;&nbsp;  文件名.tar.gz
+- 解压文件
+
+		tar xvzf  文件名.tar.gz
+		
 - 解压完后要切换bin目录下
-- 执行&nbsp;./idea.sh&nbsp;命令，idea就会进行安装了
+
+	   cd 解压后名字/bin
+	  
+- 执行命令，idea就会进行安装了
+
+		./idea.sh
