@@ -106,9 +106,9 @@
 
 - 启动tomcat8
 
-		sudo systemctl statuc tomcat8		 -- 查看状态
-		systemctl start tomcat8			 -- 启动服务
-		systemctl restart 服务名		       -- 重启服务
-		systemctl stop 服务名		       -- 停止服务
+		sudo systemctl statuc tomcat8	   -- 查看状态
+		systemctl start tomcat8		   -- 启动服务
+		systemctl restart 服务名		-- 重启服务
+		systemctl stop 服务名		-- 停止服务
 		systemctl list-unit --type=service	 -- 显示所有已开启的服务
 		
