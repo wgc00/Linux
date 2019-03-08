@@ -105,6 +105,7 @@
 ## 八、启动服务端的命令
 
 - 启动tomcat8
+
 		sudo systemctl statuc tomcat8		 -- 查看状态
 		systemctl start tomcat8			 -- 启动服务
 		systemctl restart 服务名		       -- 重启服务
