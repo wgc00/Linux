@@ -1,29 +1,36 @@
-### ÔÚLinux/UbuntuÖÐ¿ìËÙ°²×°IDEA
-- Ò»°ãµÄÔÚ°²×°µÚÈýÈí¼þÊ±£¬LinuxÊÇ²»»áÔÚÏµÍ³ÖÐÓÐIDEAÕâÑùµÄÉÌÒµÈí¼þµÄ£¬ËùÒÔ½èÖúÁ½¸öÃüÁîÀ´°²×°µÚÈý·½Èí¼þ
+### åœ¨Linux/Ubuntuä¸­å¿«é€Ÿå®‰è£…IDEA
+- ä¸€èˆ¬çš„åœ¨å®‰è£…ç¬¬ä¸‰è½¯ä»¶æ—¶ï¼ŒLinuxæ˜¯ä¸ä¼šåœ¨ç³»ç»Ÿä¸­æœ‰IDEAè¿™æ ·çš„å•†ä¸šè½¯ä»¶çš„ï¼Œæ‰€ä»¥å€ŸåŠ©ä¸¤ä¸ªå‘½ä»¤æ¥å®‰è£…ç¬¬ä¸‰æ–¹è½¯ä»¶
    
+<<<<<<< HEAD
 ### wgetÊ¹ÓÃ
 - wget url(ÕâÀïurl¾ÍÊÇÄãÒªÏÂÔØideaµÄÍøÕ¾)
 - [ÔÚidea¹ÙÍøÖÐdirect linkÓÒ¼ü¸´ÖÆÁ´½Ó](img/1.jpg)
 - [wgetÏÂÔØ](img/1.png)
+=======
+### wgetä½¿ç”¨
+- wget url(è¿™é‡Œurlå°±æ˜¯ä½ è¦ä¸‹è½½ideaçš„ç½‘ç«™)
+- [åœ¨ideaå®˜ç½‘ä¸­direct linkå³é”®å¤åˆ¶é“¾æŽ¥](img/1.jpg)
+- [wgetä¸‹è½½](img/1.png)
+>>>>>>> b9053c4e745a17bf1266df75ef709ce4b09a1d72
 
-### Èç¹û¾õµÃwgetÏÂÔØÌ«Âý£¬¿ÉÒÔÖ´ÐÐÍ£Ö¹£¨°´Ctrl + C£©ÊÇÓÃaxelÃüÁî
-- Ê×ÏÈÒªÔÚÖÕ¶Ë²éÕÒ¿´Ò»ÏÂÊÇÒÑ¾­ÏÂÔØÁË
-		apt search axel ÃüÁî
-		Èç¹ûÃ»ÓÐÏÂÔØ¿ÉÒÔÊ¹ÓÃÃüÁîÏÂÔØ: sudo apt install axel
-- ÏÂÔØaxelÃüÁîºó
-		axel -n 32 url 		(32¸öÏß³ÌÏÂÔØ)
- 		-n:±íÊ¾Æô¶¯Ïß³Ì£¬Æô¶¯¶àÉÙ¿´ºóÃæ´øµÄ²ÎÊý
+### å¦‚æžœè§‰å¾—wgetä¸‹è½½å¤ªæ…¢ï¼Œå¯ä»¥æ‰§è¡Œåœæ­¢ï¼ˆæŒ‰Ctrl + Cï¼‰æ˜¯ç”¨axelå‘½ä»¤
+- é¦–å…ˆè¦åœ¨ç»ˆç«¯æŸ¥æ‰¾çœ‹ä¸€ä¸‹æ˜¯å·²ç»ä¸‹è½½äº†
+		apt search axel å‘½ä»¤
+		å¦‚æžœæ²¡æœ‰ä¸‹è½½å¯ä»¥ä½¿ç”¨å‘½ä»¤ä¸‹è½½: sudo apt install axel
+- ä¸‹è½½axelå‘½ä»¤åŽ
+		axel -n 32 url 		(32ä¸ªçº¿ç¨‹ä¸‹è½½)
+ 		-n:è¡¨ç¤ºå¯åŠ¨çº¿ç¨‹ï¼Œå¯åŠ¨å¤šå°‘çœ‹åŽé¢å¸¦çš„å‚æ•°
 	
 
-### ÎÒÃÇÒª½øÐÐ½âÑ¹
-- ½âÑ¹ÎÄ¼þ
+### æˆ‘ä»¬è¦è¿›è¡Œè§£åŽ‹
+- è§£åŽ‹æ–‡ä»¶
 
-		tar xvzf  ÎÄ¼þÃû.tar.gz
+		tar xvzf  æ–‡ä»¶å.tar.gz
 		
-- ½âÑ¹ÍêºóÒªÇÐ»»binÄ¿Â¼ÏÂ
+- è§£åŽ‹å®ŒåŽè¦åˆ‡æ¢binç›®å½•ä¸‹
 
-	   cd ½âÑ¹ºóÃû×Ö/bin
+	   cd è§£åŽ‹åŽåå­—/bin
 	  
-- Ö´ÐÐÃüÁî£¬idea¾Í»á½øÐÐ°²×°ÁË
+- æ‰§è¡Œå‘½ä»¤ï¼Œideaå°±ä¼šè¿›è¡Œå®‰è£…äº†
 
 		./idea.sh
