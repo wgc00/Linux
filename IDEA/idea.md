@@ -3,8 +3,8 @@
 - 在安装第三软件时，Linux是不会在系统中有IDEA这样的商业软件的，所以借助wget、 aexl两个命令来安装第三方软件
    
 ### 二、wget使用
-- wget url(https://download.jetbrains.com/idea/ideaIU-2018.3.5.tar.gz)
-- ![在idea官网中direct link右键复制链接](img/1.jpg)
+-  wget url(https://download.jetbrains.com/idea/ideaIU-2018.3.5.tar.gz)
+- ![在idea官网中direct link右键复制链接](img/1.jpg)  
 - ![wget下载](img/1.png)
 
 
