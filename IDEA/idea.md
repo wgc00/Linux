@@ -31,3 +31,10 @@
 - 执行命令，idea就会进行安装了
 
 		./idea.sh
+
+
+### 五、配置文件迁移
+
+	 whereis tomcat8  -- 查询位置
+	 
+	 sudo ln -s /etc/tomcat8 /conf
