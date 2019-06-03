@@ -82,6 +82,4 @@
 		 getRuntime().exec("chmod 644 ".concat(file.getPath()));
 		 
 ### 11、如果上传图片还是失败，要直接去修改目录的权限
-		
-		
-
+	
