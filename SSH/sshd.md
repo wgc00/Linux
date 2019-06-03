@@ -68,3 +68,8 @@
 ### 八、从远程复制文件到本地目录
 
 	 scp -r 用户名@IP地址:/opt/test 本地路径
+
+## 九、ubuntu 安装 ssh
+
+	sudo apt-get install openssh-server
+
