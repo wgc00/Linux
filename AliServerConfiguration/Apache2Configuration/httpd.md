@@ -74,12 +74,12 @@
 
 ![6](img/6.png)
 
-### 10、如果 linux 系统，图片上传时， 是没有其他是没有权限访问的可以使用 java 代码改变权限
+### 10、如果 linux 系统，图片上传时， 报没有权限可以访问图片，可使用 java 代码改变权限
 	
 		 // 修改 自己能读能写，其他人只能读
 		 getRuntime().exec("chmod 644 ".concat(file.getPath()));
 		 
-		 //如果上传图片还是失败，要直接去修改目录的权限：比如我是把图片放在 /home/earle/httpd/FileServer目录下
+		 //如果上传图片还是失败，要直接去终端修改目录的权限：比如我是把图片放在 /home/earle/httpd/FileServer目录下
 		 要使用： chmod 777 httpd 
 		 继续改： cd httpd 目录下 ，
 		 最后改：chmod 777 FileServer 改完后重启项目，当图片再次上传时就不会报后台错误了
