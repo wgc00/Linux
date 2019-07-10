@@ -12,3 +12,10 @@
                 2、 service tomcat8 restart                                     # 重启 tomcat 服务， 启动服务进行访问就可了
 
 
+### tomcat8 查看日志
+      
+                1、切换到 cd /var/log/tomcat8  （tomcat8 目录需要 root 权限进入）
+                2、tail -f catalina.out(循环输出日志)
+                3、ctrl + c 可以退出
+                
+            
