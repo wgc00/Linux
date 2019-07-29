@@ -22,5 +22,9 @@
 
 			default-character-set = utf8
 
+### 3、查看编码
+
+		show variables like '%character%';
+
 
 		
